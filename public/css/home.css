@@ -1,0 +1,172 @@
+
+.gallery {
+    position: relative;
+    display: inline-block;
+    height: 100vh;
+}
+  
+  #currentImage {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background-color: rgba(19, 30, 76, 0.4);
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #f1f1f1;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    z-index: 3;
+  }
+  
+  .prev {
+    left: 20px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+  
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 200px;
+    padding-top: 100px;
+    color: #131e4c;
+    z-index: 1;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 26px;
+  }
+
+  .overlay-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 60%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+
+  }
+
+  .overlay a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #131e4c;
+}
+
+  .overlay a:hover {
+    text-decoration: underline;
+}
+
+  .overlay-text {
+    font-size: 26px;
+    margin-right: 60%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+
+  }
+  
+  .gallery-text {
+    font-size: 26px;
+  }
+
+  .teste-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #131e4c;
+    position: relative;
+  }
+  
+  .teste-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .teste-text-container {
+    flex: 1;
+    padding-right: 50px;
+    padding-left: 10%;
+    align-items: center;
+  }
+  
+  .teste-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .teste-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .teste-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1e4ede;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 2;
+  }
+  
+  .teste-image-container {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .teste-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .teste-list-container {
+    margin-top: 30px;
+  }
+  
+  .teste-list {
+    columns: 2;
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .teste-list li {
+    margin-bottom: 10px;
+  }
+
+  .teste-gallery {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+  }

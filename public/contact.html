@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedikaShop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header class="header">
+        <a target="_blank" href="https://www.google.com/maps/place/Pia%C8%9Ba+Universit%C4%83%C8%9Bii/@44.4349995,26.1006616,17.72z/data=!4m6!3m5!1s0x40b1ff474e7a6aff:0xddbdc63ca7b72e72!8m2!3d44.4349199!4d26.1011516!16zL20vMDRteDls?entry=ttu" class="address">
+          <img src="images/pin.png" alt="Location Pin">
+          adresa
+        </a>
+        <button class="cos-button">COȘ DE CUMPĂRĂTURI
+          <img src="images/cos.png" alt="Cos">
+        </button>
+      </header>
+    <section class="logo-menu">
+      <div class="logo-container">
+        <img src="images/logo.jpg" alt="Logo" class="logo">
+      </div>
+      <nav class="menu">
+        <ul>
+            <li class="dropdown">
+              <a href="home.html" class="dropbtn">Home</a>
+              <ul class="dropdown-content">
+                <li><a href="descriere.html">Descriere</a></li>
+                <li><a href="echipa.html">Echipa</a></li>
+                <li><a href="reclama.html">Reclamă</a></li>
+                <li><a href="filmulete.html">Filmulețe</a></li>
+                <li><a href="recomandari.html">Recomandări</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="aparatura.html" class="dropbtn">Aparatură</a>
+              <ul class="dropdown-content">
+                <li><a href="laborator.html">Teste</a></li>
+                <li><a href="beauty.html">Beauty</a></li>
+                <li><a href="fizioterapie.html">Fizioterapie</a></li>
+                <li><a href="pacienti.html">Pentru pacienți</a></li>
+              </ul>
+            </li>
+            <li><a href="certificari.html">Certificări</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="contact-section">
+      <div class="contact-container">
+          <h2 class="contact-heading">Contact</h2>
+          <div class="contact-info">
+              <p class="contact-item">
+                  <img src="images/pin.png" alt="Location Pin">
+                  Adresă:
+              </p>
+              <p class="contact-item">Cod poștal:</p>
+              <p class="contact-item">Nr. de telefon: 07</p>
+              <p class="contact-item">Gmail: medikashop@gmail.com</p>
+          </div>
+          <div class="contact-form">
+              <h3 class="form-heading">Trimite-ne un mesaj</h3>
+              <form action="/submit-form" method="POST">
+                  <div class="form-group">
+                      <label for="name">Nume:</label>
+                      <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Mesaj:</label>
+                      <textarea id="message" name="message" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="form-button">Trimite</button>
+              </form>
+          </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>Adresă: </p>
+          <p>Cod poștal: </p>
+          <p>Nr. de telefon: 07</p>
+          <p>Gmail: medikashop@gmail.com</p>
+        </div>
+        <div class="footer-column">
+          <h3>Pagini utile</h3>
+          <div class="footer-menu">
+            <ul>
+              <li><a href="laborator.html">Teste</a></li>
+              <li><a href="beauty.html">Beauty</a></li>
+              <li><a href="fizioterapie.html">Fizioterapie</a></li>
+              <li><a href="pacienti.html">Pentru pacienți</a></li>
+              <li><a href="recomandari.html">Recomandări</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Certificari</h3>
+          <ul>
+            <li>Certificare 1</li>
+            <li>Certificare 2</li>
+            <li>Certificare 3</li>
+          </ul>
+        </div>
+      </div>
+      <div class="gradient-border">
+        <div class="footer-bottom">
+          &copy; 2023 MedikaShop
+        </div>
+      </div>
+    </footer>
+    <script src="/scripts/scrolledheader.js"></script>
+</body>
+</html>
