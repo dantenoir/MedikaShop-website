@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
   const images = ['/images/img1.jpg', '/images/img2.jpg', '/images/img3.jpg', '/images/img4.jpg', '/images/img5.jpg'];
-  const headings = ['Medikashop', 'Aparatura', 'Produse naturiste', 'Beauty', 'Testeaza-te!'];
-  const descrieri = ['Medikashop este un magazin online de aparatura medicala, teste. Gama noastra variata de produse face ca beneficiarii sa poata face toate cumparaturile dintr-un singur loc. Portofoliul nostru vast are ca principiu calitate inalta a produselor. Fiabilitatea magazinului noastu il face sa fie potrivit pentru spitale, clinici, laboratoare, saloane si pentru pacientii de acasa.',
-                     'Tehnologiile noastre de ultima generatie vin in ajutorul pacientiilor in diagnosticarea si tratarea diverselor afectiuni. Ne dorim sa facem ca aceste etape sa fie cat mai usor si rapid de parcurs.', 
-                     'Medikashop se preteaza si pe nevoile oamenilor de acasa, avand o multitudine de produse naturiste, pentru imunitate, obezitate, depresie, anxietate, dureri musculare si articulare si pentru multe alte afectiuni.',
+  const headings = ['Medikashop', 'Aparatură', 'Produse naturiste', 'Beauty', 'Testează-te!'];
+  const descrieri = ['MedikaShop este un magazin online de aparatură medicală și teste. Gama noastră variată de produse face ca beneficiarii să poată face toate cumpărăturile dintr-un singur loc. Portofoliul nostru vast are ca principiu calitate înaltă a produselor. Fiabilitatea magazinului nostru îl face să fie potrivit pentru spitale, clinici, laboratoare, saloane și pentru pacienții de acasă.',
+                     'Tehnologiile noastre de ultimă generație vin în ajutorul pacienților în diagnosticarea și tratarea diverselor afecțiuni. Ne dorim să facem ca aceste etape să fie cât mai ușor și rapid de parcurs.', 
+                     'Medikashop se pretează și pe nevoile oamenilor de acasă, având o multitudine de produse naturiste, pentru imunitate, obezitate, depresie, anxietate, dureri musculare și articulare și pentru multe alte afecțiuni.',
                      'Zona de beauty face parte din magazinul nostru cu produse 100% bio.',
-                     'Usor si rapid cu ajutorul testelor noastre de inalta calitate.'];
+                     'Ușor și rapid cu ajutorul testelor noastre de înaltă calitate.'];
   const hrefs = ['descriere.html', 'aparatura.html', '', 'beauty.html', 'teste.html'];
   let currentIndex = 0;
   const currentImage = document.getElementById('currentImage');
