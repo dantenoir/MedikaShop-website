@@ -294,6 +294,9 @@ body {
   }
 
 @media (max-width: 768px) {
+  .body{
+    max-width: 768px;
+  }
   .header {
     padding: 10px;
     height: 50px;
