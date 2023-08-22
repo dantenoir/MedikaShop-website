@@ -11,3 +11,15 @@ window.addEventListener("scroll", function() {
     }
   });
   
+  const mobileMenuButton = document.getElementById('mobileMenuButton');
+  const menu = document.querySelector('.menu');
+  
+  mobileMenuButton.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+  
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      menu.classList.remove('active');
+    }
+  });

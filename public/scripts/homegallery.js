@@ -97,3 +97,4 @@ document.addEventListener("DOMContentLoaded", function() {
   prevButton.addEventListener('click', showPrevImage);
   nextButton.addEventListener('click', showNextImage);
 });
+

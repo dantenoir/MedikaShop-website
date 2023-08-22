@@ -25,3 +25,30 @@
     padding-left: 20px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .descriere {
+        padding: 20px;
+        margin-left: 0;
+        flex-direction: column;
+      }
+    
+      .heading-descriere {
+        padding-left: 0;
+      }
+    
+      .descriere-text {
+        padding-left: 0;
+      }
+    
+      .descriere-img {
+        margin-top: 20px;
+      }
+    
+      .descriere-img img {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        text-align: center;
+      }
+}
