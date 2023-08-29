@@ -177,3 +177,26 @@
     display: inline-block;
     width: 70%;
   }
+
+  @media (max-width: 768px) {
+    .teste-section {
+      flex-direction: column;
+    }
+  
+    .teste-text-container {
+      padding: 0;
+      text-align: center;
+    }
+  
+    .teste-image-container {
+      margin-top: 30px;
+    }
+  
+    .teste-gallery {
+      width: 100%;
+    }
+
+    .teste-button-container {
+      position: relative;
+    }
+  }
