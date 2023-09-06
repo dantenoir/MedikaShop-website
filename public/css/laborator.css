@@ -69,10 +69,10 @@
     
     
     .teste-list {
-      columns: 1;
+      columns: 2;
       list-style-type: disc;
       margin: 0;
-      padding-left: 20px;
+      padding-left: 30px;
       font-size: larger;
     }
     
@@ -81,7 +81,7 @@
     }
 
     .teste-img {
-      width: 30%;
+      width: 40%;
       height: auto;
     }
 
@@ -134,16 +134,18 @@
     
       .teste-list {
         font-size: initial;
+        columns: 1;
         padding-left: 0;
+        list-style: none;
       }
-    
+
       .teste-list li {
         margin-bottom: 8px;
       }
-    
-      .teste-img {
+      
+      .teste-list img {
         width: 70%;
         height: auto;
-        margin: 10px auto; /* Center the images */
+        margin: 10px auto; 
       }
     }

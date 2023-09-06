@@ -255,10 +255,10 @@ body {
     flex-direction: column;
 }
   
-.footer-menu ul {
+.footer-menu ul, .footer-column ul {
     list-style: disc;
 }
-  .footer-menu a {
+  .footer-menu a, .footer-column a {
     margin: 10px 0;
     color: #fcfcfa;
     text-decoration: none;
@@ -266,9 +266,10 @@ body {
     display:block;
   }
   
-  .footer-menu a:hover {
+  .footer-menu a:hover, .footer-column a:hover {
     text-decoration: underline;
   }
+
   
   .footer-bottom {
     padding: 15px;

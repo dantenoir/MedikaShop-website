@@ -1,0 +1,32 @@
+.certificari {
+    padding: 40px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.heading-certificari {
+    padding-left: 10px;
+}
+
+.certificari a {
+    margin: 10px 0;
+    color: #131e4c;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.certificari a:hover {
+    text-decoration: underline;
+}
+
+.certificari embed {
+    display: none;
+}
+
+
+
+
+
+
+
