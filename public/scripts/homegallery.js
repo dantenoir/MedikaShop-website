@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 
-  const imagesTeste = ['/images/test HBsAg.jpg', '/images/test HCV Ac.jpg', '/images/test HIV 1+2.jpg'];
+  const imagesTeste = ['/images/test HBsAg.jpg', '/images/test HCV.jpg'];
   let currentIndexTeste = 0;
   const currentImageTeste = document.getElementById('currentImageTeste');
 
